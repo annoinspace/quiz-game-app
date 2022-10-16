@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(ellipse at top, #eeaeed, transparent),
+    radial-gradient(ellipse at bottom, #94c2e9, transparent);
+}
+
+.mainContainer {
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 100px;
+  box-shadow: 0 0 50px 10px #94c2e9;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.btn {
+  color: white;
+  background-color: #b594e9;
+  padding: 10px 10px;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  border-color: #9894e9;
+  transform: scale(1.05);
+}
+.start-btn,
+.next-btn {
+  width: 200px;
+  background-color: #94c2e9;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
