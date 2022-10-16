@@ -1,8 +1,5 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -15,6 +12,7 @@ body {
   align-items: center;
   background: radial-gradient(ellipse at top, #eeaeed, transparent),
     radial-gradient(ellipse at bottom, #94c2e9, transparent);
+  user-select: none;
 }
 
 .mainContainer {
