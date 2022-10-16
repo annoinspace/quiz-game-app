@@ -61,3 +61,7 @@ body {
 .hide {
   display: none;
 }
+
+.correct {
+  background-color: green;
+}
